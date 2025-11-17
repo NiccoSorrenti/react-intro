@@ -1,8 +1,7 @@
 const Welcome = function (props) {
-  console.log('PROPS del componente', props);
-
-  // Props è un parametro del nostro componente a funzione
-  // props è un OGGETTO
+  console.log('PROPS DEL COMPONENTE', props);
+  // props è un parametro del nostro componente a funzione
+  // props è UN OGGETTO, che contiene TUTTE le prop passate/ricevute dal componente
   return <h4>Ciao, {props.myName}!</h4>;
 };
 

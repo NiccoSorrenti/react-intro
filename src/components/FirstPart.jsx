@@ -1,4 +1,11 @@
-// Il nome del file deve seguire la nomenclatura Pascal case, ovvero la lettera iniziale in maiuscolo
+// RICORDA! Il NOME del file deve seguire la nomenclatura PascalCase (cioè
+// anche l'iniziale va in MAIUSCOLO!)
+
+// 1 file === 1 componente react
+// nome file === nome componente react
+
+// un componente React può benissimo essere anche solamente una funzione JS
+// che ritorna un po' di JSX
 
 const FirstPart = function () {
   // nome funzione === nome file
@@ -9,7 +16,9 @@ const FirstPart = function () {
   );
 };
 
-// Una volta dichiarata la funzione del componente react la bisogna ESPORTARE
+// una volta DICHIARATA la funzione del componente react
+// la dovete ESPORTARE
 
 export default FirstPart;
-// La esportiamo come default, ovvero sarà la cosa principale esportata da questo file
+// la esportiamo come "default", significa che sarà la cosa "PRINCIPALE" esportata
+// da questo file
